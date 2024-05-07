@@ -6,8 +6,61 @@
     </head>
     <body>
         <!--../ indica a quantidade de vezes que você deseja voltar a página anterior.-->
-        <h4><a href = "../index.html">Voltar</a></h4> 
-        <p>Iremos montar aqui um formulario para envio de mensagens.</p>
+        <form method="post" action="enviar.php">
+            <label>Nome completo</label>
+            <br>
+            <input type="text" id="ed_nome" name="ed_nome"/>
+            <br><br>
+
+            <label>E-mail</label>
+            <br>
+            <!--o tipo email é validado quando recolhece o @ do email-->
+            <!--O type é um atributo padrão da documentação html.-->
+            <!--Já o id e o name, são atributos com nomes opcionais do desenvolvedor.-->
+            <input type="email" id="ed_email" name="ed_email"/>
+            <br><br>
+            
+            <label>Senha</label>
+            <br>
+            <input type="password" id="ed_psw" name="ed_psw"/>
+            <br><br>
+            
+            <label>Estado</label>
+            <br>
+            <select id="cb_estados" name="cb_estados">
+                <option value="AC">Acre</option>
+                <option value="SE">Sergipe</option>
+                <option value="AL">Alagoas</option>
+                <option value="MA">Maranhão</option>
+                <option value="BA">Bahia</option>
+                <option value="PE">Pernambuco</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </select>
+            <br><br>
+
+            <label>Foto</label>
+            <br>
+            <input type="file" id="ed_foto" name="ed_foto"/>
+            <br><br>
+
+            <label>Pagina Web</label>
+            <br>
+            <input type="url" id="ed_url" name="ed_url"/>
+            <br><br>
+
+            <label>Comentarios e sugestões</label><br><br>
+            <textarea 
+                id="txt_comentarios" name="txt_comentarios" rows="8" cols="50">
+            </textarea>
+
+            <br><br>
+            <input type="submit" value="Enviar"/>
+            <input type="submit" value="Cancelar"/>
+        </form>
         
+        <h4><a href = "../index.html">Voltar</a></h4> 
+
     </body>
 </html>
