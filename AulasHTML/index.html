@@ -9,12 +9,25 @@
     <link rel="stylesheet" href="/CSS/style.css"/>
     <!--Define o título da página HTML, a ser exibido geralmente no título da aba ou janela do browser.-->
     <style>
-        body {
-            background-color: #f0f0f0;
-            /* Cor de fundo cinza claro */
+        p.primeiraCor {
+            color: rgb(143, 1, 84);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-        h3{color:blueviolet;}
-        p{ margin-left: 15px; padding: 1.5em;}
+
+        p.segundaCor {
+            color: yellowgreen;
+        }
+
+        .corTres {
+            color: blue;
+        }
+
+        img[src="images/AWS-Certified-Cloud-Practitioner.png"]{
+            border: 5px solid purple;
+            border-radius: 50px;
+
+        }
+
     </style>
 </head>
 
@@ -37,9 +50,9 @@
     <!--Para quebrar linhas, vocÊ deve inserir as tags </br> ao final de cada paragrafo-->
     <!--<em> Serve para por as palavras em (Italico).-->
 
-    <p align="center"><em>
+    <p align="center" class="primeiraCor"><em>
             <!--Para formatar textos em parágrafos, temos a tag <font>. Com esta tag podemos definir o tipo da fonte, a cor e tamanho da fonte.-->
-            <font face="Verdana" size="2px">Olá, me chamo Thiago Vinicius. Tenho 27 anos de idade, sou do estado de
+            <font size="2px">Olá, me chamo Thiago Vinicius. Tenho 27 anos de idade, sou do estado de
                 Pernambuco e resido na região metropolitava de Recife.</br> Sou formado em Técnico em Eletrônica, pelo
                 Instituto Federal de Pernambuco (IFPE). Estou em processo de migração de carreira para área de
                 tecnologia da informação (T.I.).</br>
