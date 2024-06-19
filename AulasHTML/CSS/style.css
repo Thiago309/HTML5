@@ -1,9 +1,8 @@
-p{
+p {
     font-size: 12px;
-    p{ margin-left: 15px; padding: 1.5em;}
 }
 
-body{
+body {
     background-color: #f0f0f0;
     /* Cor de fundo cinza claro */
     font-weight: bold;

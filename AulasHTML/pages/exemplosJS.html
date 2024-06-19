@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Entrar em contato</title>
-    </head>
-    <body>
-        <script type="text/javascript">
-            "use strict"
-            /*
-            var nome="Lenin"
-            var _idade = 42
-            var $existe=true
-            var profissao
-            hobby="correr"
 
-            alert("Nome: " + nome + " idade: " + _idade + " Existe?: " 
-                + $existe +  "Profissão: " + profissao + "Hobby: " + hobby)
-            */
-            //Objetos
-            var infos = {
-                nome: "Lenin",
-                idade: 42,
-                existe: true
-            }
+<head>
+    <meta charset="utf-8" />
+    <title>Entrar em contato</title>
+</head>
 
-            //alert("Nome: " + infos.nome)
+<body>
+    <input type="button" value="Ok" onclick="lerDiv();">
+    <br>
+    <div id="cert">
+        Certificados:
+    </div>
+    <br>
 
-            //Operadores
-            var a = 15
-            var b = 20
+    <div id="conteudo">
+        <img src="../images/AWS-Certified-Cloud-Practitioner.png" />
+        <img src="../images/MySql.jpg" />
+        <br>
+        <input type="button" value="Ler Imagens" onclick="lerImagens()">
 
-            var soma = a + b
-            var subtracao = a - b
-            var mult = a * b
-            var divInt = a / b
-            var incre = a
-            var decre = a
+    </div>
 
-            alert("Operação : " + incre++)
-            alert("pos-incremento: " + ++incre)
+    <script type="text/javascript">
+        "use strict"
+        /*
+        var nome="Lenin"
+        var _idade = 42
+        var $existe=true
+        var profissao
+        hobby="correr"
 
+        alert("Nome: " + nome + " idade: " + _idade + " Existe?: " 
+            + $existe +  "Profissão: " + profissao + "Hobby: " + hobby)
+        */
+        //Objetos
+        var infos = {
+            nome: "Lenin",
+            idade: 42,
+            existe: true
+        }
 
-        </script>
-    </body>
+        //alert("Nome: " + infos.nome)
+
+        //Operadores
+        var a = 15
+        var b = 20
+
+        var soma = a + b
+        var subtracao = a - b
+        var mult = a * b
+        var divInt = a / b
+        var incre = a
+        var decre = a
+
+        /*alert("Operação : " + incre++)
+        alert("pos-incremento: " + ++incre)*/
+
+    </script>
+    <script src="../JS/script.js"></script>
+</body>
+
 </html>
